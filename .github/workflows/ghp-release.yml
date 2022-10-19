@@ -3,7 +3,7 @@ name: githubpages deployment
 on:
   push:
     branches:
-      - master
+      - main
 
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     if: github.repository == 'BOBOKaa/dcf-home'
     runs-on: ubuntu-latest
     
-       steps:
+    steps:
       - name: Checkout
         uses: actions/checkout@v1
 
